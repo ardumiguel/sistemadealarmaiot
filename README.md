@@ -3,7 +3,7 @@
 
 Proyecto de Miguel Rodríguez, estudiante de 1º Bachillerato de ciencias y tecnología, presentado en la **Feria Andaluza de Tecnología 2023** y en la **25º Feria de la Ciencia** del Parque de las Ciencias.
 
-![IMG_0013](https://github.com/ardumiguel/sistemadealarmaiot/assets/133792399/d6731c86-4e20-4939-97ae-ad4bdeb8afc9)
+![IMG_0013](https://github.com/ardumiguel/sistemadealarmaiot/assets/133792399/6366e4f0-d242-4616-a612-eaad69f976a9)
 
 El sistema de alarma IoT se compone de cuatro módulos inalámbricos. Cada uno de ellos cuenta con un ESP32 que, a través del protocolo de comunicación inalámbrica “ESP-now”, es capaz de comunicarse con el resto de módulos. Estos son: sensor inalámbrico de puerta o ventana, panel de control, módulo de cámara con sensor de movimiento, y sensor inalámbrico de movimiento. Cabe destacar que los modulos de sensor de movimiento y de puerta o ventana son tan eficientes energéticamente en cuanto a términos energéticos que su duración de batería es de 18 meses.
 
