@@ -1,7 +1,7 @@
 # Sistema de Alarma IoT
 
 
-Proyecto de Miguel Rodríguez, estudiante de 1º Bachillerato de ciencias y tecnología, presentado en la **Feria Andaluza de Tecnología 2023** y en la **25ª Feria de la Ciencia** del Parque de las Ciencias.
+Proyecto presentado en la **Feria Andaluza de Tecnología 2023** y en la **25ª Feria de la Ciencia** del Parque de las Ciencias.
 
 ![IMG_0013](https://github.com/ardumiguel/sistemadealarmaiot/assets/133792399/6366e4f0-d242-4616-a612-eaad69f976a9)
 
