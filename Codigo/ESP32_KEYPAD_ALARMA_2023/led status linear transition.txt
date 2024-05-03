@@ -1,0 +1,76 @@
+/*
+int fps = 25;
+int target_color[9][3];
+float prev_color[9][3];
+float constant[9][3];
+
+int get_constant(byte color, byte prev_col, int target_time) {
+  return abs(color - prev_col) * fps / target_time;
+}
+
+void set_led_color(byte q, int t, byte r_, byte g_, byte b_) {
+  for (int i = 0; i < 3; i++) {
+
+    if (t == 0) {
+
+      target_color[q][0] = prev_color[q][0] = r_;
+      target_color[q][1] = prev_color[q][2] = g_;
+      target_color[q][2] = prev_color[q][3] = b_;
+
+      pixels.setPixelColor(q, r_, g_, b_);
+      pixels.show();
+      return;
+    }
+
+    if (i == 0) {
+      target_color[q][i] = r_;
+      constant[q][i] = ((float)abs(r_ - prev_color[q][i]) * fps / t);
+      //      constant[q][i] = get_constant(r_, prev_color[q][i], t);
+    } else if (i == 1) {
+      target_color[q][i] = g_;
+      constant[q][i] = ((float)abs(g_ - prev_color[q][i]) * fps / t);
+    } else if (i == 2) {
+      target_color[q][i] = b_;
+      constant[q][i] = ((float)abs(b_ - prev_color[q][i]) * fps / t);
+    }
+
+    if (constant[q][i] == 0)
+      constant[q][i] = 1;
+  }
+}
+
+void led_update() {
+  static unsigned long t_ant = 0;
+  if (millis() - t_ant >= 25) {
+
+    for (int q = 0; q < 8; q++) {
+ 
+      for (int i = 0; i < 3; i++) {
+        if (target_color[q][i] != prev_color[q][i]) {
+          if (target_color[q][i] > prev_color[q][i]) {
+            prev_color[q][i] += constant[q][i];
+            prev_color[q][i] = constrain(prev_color[q][i], 0, target_color[q][i]);
+          } else {
+            prev_color[q][i] -= constant[q][i];
+            prev_color[q][i] = constrain(prev_color[q][i], target_color[q][i], 255);
+          }
+        }
+      }
+      pixels.setPixelColor(q, prev_color[q][0], prev_color[q][1], prev_color[q][2]);
+      if (q == 7)
+        pixels.show();
+    }
+
+
+
+    Serial.print(constant[4][1]);
+    Serial.print("/");
+    Serial.print("    ");
+    Serial.print(prev_color[4][1]);
+    Serial.print("    ");
+    Serial.print(target_color[4][1]);
+    Serial.print("/");
+    Serial.println("");
+    t_ant = millis();
+  }
+}*/
