@@ -1,7 +1,7 @@
 # Sistema de Alarma IoT
 
 
-Proyecto presentado en la **Feria Andaluza de Tecnología 2023** y en la **25ª Feria de la Ciencia** del Parque de las Ciencias.
+Proyecto presentado en la **Feria Andaluza de Tecnología 2023** y en la **25ª Feria de la Ciencia** del Parque de las Ciencias. Realizado  en el curso de 1 de bachillerato en el IES Alquivira.
 
 ![IMG_0013](https://github.com/ardumiguel/sistemadealarmaiot/assets/133792399/6366e4f0-d242-4616-a612-eaad69f976a9)
 
